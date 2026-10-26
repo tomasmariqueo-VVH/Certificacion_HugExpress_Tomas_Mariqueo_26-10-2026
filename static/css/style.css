@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: solid 1px red;
+}
+
+.header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    border-bottom: solid 1px black;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#8E7CC3;
+    width: 100%;
+}
+
+.izquierda{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding: 1%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-logo{
+    display: flex;
+}
+
+.contenedor-logo img{
+    width: 100%;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.35%;
+    background-color: #dddddd;
+    width: 67%;
+}
+
+.input{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.input input{
+    width: 80%;
+}
+
+.input button{
+    width: 20%;
+}
+
+.indice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    gap: 1%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    gap: 1%;
+}
+
+.seccion-amigos{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    flex: 3;
+}
+
+.amigo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    max-width: 1000px;
+}
+
+.izquierda2{
+    display: flex;
+    gap: 2%;
+}
+
+.seccion-texto{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cookies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    outline: solid 2px black;
+    padding: 1%;
+    gap: 1%;
+    width: 80%;
+    top: 550px;
+    left: 120px;
+    right: 120px;
+}
+
+.contenedor-galleta{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    display: flex;
+    width: 70%;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+.texto p a{
+    color: rgb(26, 98, 180);
+}
+
+.boton-aceptar button{
+    width: 70px;
+    height: 25px;
+    border: none;
+    box-shadow: 3px 3px 3px grey;
+    font-weight: bold;
+    color: white;
+    background-color: #8E7CC3;
+    cursor: pointer;
+}
