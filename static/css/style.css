@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    outline: solid 1px red;
 }
 
 .header{
@@ -24,29 +23,36 @@
 }
 
 .izquierda{
-    display: flex;
-    align-items: center;
     width: 33%;
 }
 
 .logo{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    min-width: 200px;
+    width: 100%;
 }
 
 .contenedor-logo{
     display: flex;
+    width: 30px;
 }
 
 .contenedor-logo img{
     width: 100%;
 }
 
+.titulo-logo h1{
+    font-size: 25px;
+}
+
 .derecha{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1.35%;
     background-color: #dddddd;
     width: 67%;
@@ -56,6 +62,7 @@
     width: 50%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .input input{
@@ -64,7 +71,19 @@
 }
 
 .input button{
+    height: 30px;
     width: 20%;
+}
+
+.conoce{
+    display: flex;
+    align-items: center;
+}
+
+.conoce a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
 }
 
 .indice{
@@ -79,6 +98,7 @@
 .main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 1%;
     gap: 1%;
 }
@@ -96,7 +116,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 2%;
-    max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
     height: 165px;
     background-color: #EEEEEE;
     border-radius: 15px;
@@ -130,11 +151,44 @@
     justify-content: space-around;
 }
 
+.boton-abrazos button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    outline: solid 1px black;
+    background-color: #8E7CC3;
+    color: white;
+    cursor: pointer;
+}
+
 .seccion-texto{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex: 2;
+    flex: 1;
+    background-color: #B4A7D6;
+    padding: 1%;
+}
+
+.texto1{
+    text-align: center;
+}
+
+.texto1 h3{
+    font-size: 25px;
+}
+
+.texto1 h3 span {
+    color: white;
+}
+
+.texto2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.texto2 h3{
+    font-size: 25px;
 }
 
 .footer{
